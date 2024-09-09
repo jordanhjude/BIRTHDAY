@@ -1,0 +1,68 @@
+* {
+  color: white;
+  font-size: medium;
+}
+
+body {
+  margin: 0;
+  background-image: url("./7+\ Dusty\ Blue\ Floral\ Birthday\ Invitation\ Templates.jpeg");
+}
+
+.full-background {
+  background-image: url("./download\ \(21\).jpeg"); /* Replace with your image URL or remove if using only a color */
+  background-size: cover; /* Or use 'contain' if you prefer the entire image visible */
+  background-position: center; /* Center the background */
+  background-repeat: no-repeat; /* Prevent the background from repeating */
+  background-color: #f8f9fa; /* Optional: A fallback background color */
+}
+
+.card {
+  border: none; /* Supprime la bordure par défaut */
+  border-radius: 15px; /* Arrondir les coins des cartes */
+  overflow: hidden; /* S'assurer que le contenu respecte les coins arrondis */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ajoute une ombre douce */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Ajoute une transition pour les effets au survol */
+  width: 50em;
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Soulève légèrement la carte au survol */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Accentue l'ombre au survol */
+}
+
+.card-img-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  object-fit: cover; /* Assure que l'image remplit bien l'espace tout en gardant son ratio */
+  height: 60vh; /* Fixe une hauteur pour les images des cartes */
+}
+
+.card-body {
+  padding: 20px; /* Ajoute un peu d'espace à l'intérieur des cartes */
+  color: #ffb700;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+  color: rgb(59, 59, 151); /* Couleur du titre */
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: black /* Couleur du texte */;
+  line-height: 1.5; /* Améliore la lisibilité du texte */
+  font-weight: 500;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+
+.row-cols-1 .col {
+  margin-bottom: 20px; /* Ajoute un espacement entre les colonnes dans les écrans petits */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px auto;
+}
